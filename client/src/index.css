@@ -8,3 +8,58 @@
 main {
   min-height: 80vh;
 }
+
+.product-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ratings-box {
+  position: relative;
+  color: white;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  padding: 2px 4px 2px 6px;
+  border-radius: 3px;
+}
+.ratings-content {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.products {
+  transition: all ease-in 0.25s;
+}
+
+.products:hover {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.219);
+}
+
+.reviews {
+  font-size: 15px;
+}
+
+.neg {
+  background-color: #ff6161;
+}
+
+.mid {
+  background-color: orange;
+}
+
+.pos {
+  background-color: #388e3c;
+}
+
+.test {
+  background-color: saddlebrown;
+}

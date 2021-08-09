@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const ProductScreen = () => {
-  return <div>Product</div>;
+  return (
+    <div>
+      <p>Hello</p>
+    </div>
+  );
 };
 
 export default ProductScreen;

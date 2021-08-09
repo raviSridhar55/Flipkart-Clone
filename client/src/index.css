@@ -63,3 +63,25 @@ main {
 .test {
   background-color: saddlebrown;
 }
+
+.button-group {
+  height: 65px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 7.5px;
+}
+
+.cart-btn {
+  background-color: #ff9f00;
+  height: 95%;
+  text-transform: uppercase;
+  border: none;
+}
+
+.buy-btn {
+  background-color: #fb641b;
+  height: 95%;
+  text-transform: uppercase;
+  border: none;
+}

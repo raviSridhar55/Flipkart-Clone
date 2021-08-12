@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col, Image, ListGroup, Button } from 'react-bootstrap';
-import Ratings from '../components/Ratings';
-import products from '../products';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
+import Ratings from "../components/Ratings";
+import products from "../products";
 
 const ProductScreen = ({ match }) => {
   const product = products.find((p) => p._id === match.params.id);
@@ -18,9 +18,7 @@ const ProductScreen = ({ match }) => {
           {/* <Row>Product Name</Row> */}
           <div className='button-group mt-3'>
             <Button className='cart-btn action'>Add to Cart</Button>
-            <Button className='buy-btn action'>
-              <i class='fas fa-bolt'></i> Buy Now
-            </Button>
+            <Button className='buy-btn action'>Buy Now</Button>
           </div>
         </Col>
         <Col md={7}>

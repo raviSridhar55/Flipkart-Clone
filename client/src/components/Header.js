@@ -16,14 +16,16 @@ const Header = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
-              <LinkContainer to='/cart'>
-                <Nav.Link>
-                  <i className='fas fa-shopping-cart'></i> Cart
-                </Nav.Link>
-              </LinkContainer>
               <LinkContainer to='/login'>
                 <Nav.Link>
-                  <i className='fas fa-user'></i> User
+                  <div className='login-btn'>Login</div>
+                </Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/cart'>
+                <Nav.Link>
+                  <div className='cart-dropdown'>
+                    <i className='fas fa-shopping-cart'></i> Cart
+                  </div>
                 </Nav.Link>
               </LinkContainer>
             </Nav>

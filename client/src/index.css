@@ -5,6 +5,10 @@
   position: relative;
 }
 
+body {
+  background-color: #f1f3f6;
+}
+
 main {
   min-height: 80vh;
 }
@@ -79,6 +83,14 @@ main {
   border: none;
 }
 
+.buy-focus:focus {
+  background-color: #fb641b;
+}
+
+.cart-focus:focus {
+  background-color: #ffae2b;
+}
+
 .cart-btn:hover {
   background-color: #ffae2b;
 }
@@ -96,4 +108,22 @@ main {
 
 .action {
   font-weight: 700;
+}
+
+.go-back {
+  font-weight: 700;
+  color: #8f8f8fe1;
+  border: 2px solid #b8b8b8e1;
+}
+
+.login-btn {
+  color: var(--bs-primary);
+  font-weight: 700;
+  background-color: white;
+  padding: 3.5px 45px;
+}
+
+.cart-dropdown {
+  font-weight: 700;
+  padding: 5px 45px;
 }

@@ -15,23 +15,21 @@ const ProductScreen = ({ match }) => {
     fetchProduct();
   }, [match]);
 
-  // const product = products.find((p) => p._id === match.params.id);
-
   return (
     <>
       <Link className='mb-5' to='/'>
-        <i class='fas fa-long-arrow-alt-left fa-2x'></i>
+        <i className='fas fa-long-arrow-alt-left fa-2x'></i>
       </Link>
       <Row>
         <Col md={5}>
           <Image src={product.image} alt={product.name} fluid></Image>
           <div className='button-group mt-3'>
             <Button className='cart-btn action cart-focus'>
-              <i class='fas fa-shopping-cart' /> Add to Cart
+              <i className='fas fa-shopping-cart' /> Add to Cart
             </Button>
             <Button className='buy-btn action buy-focus'>
               {" "}
-              <i class='fas fa-bolt' /> Buy Now
+              <i className='fas fa-bolt' /> Buy Now
             </Button>
           </div>
         </Col>

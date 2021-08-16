@@ -84,7 +84,7 @@ const Ratings = ({ value, text }) => {
       <OverlayTrigger placement='right' overlay={popover}>
         <div
           className={
-            "ratings-box ms-xxl-auto " +
+            "ratings-box mb-3 " +
             (value <= 2 ? "neg" : value <= 3 && value > 2 ? "mid" : "pos")
           }
         >

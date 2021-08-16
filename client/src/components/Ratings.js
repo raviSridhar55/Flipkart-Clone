@@ -1,6 +1,5 @@
 import React from "react";
 import { Popover, OverlayTrigger } from "react-bootstrap";
-import PropTypes from "prop-types";
 
 const Ratings = ({ value, text }) => {
   const popover = (
@@ -95,11 +94,6 @@ const Ratings = ({ value, text }) => {
       </OverlayTrigger>
     </div>
   );
-};
-
-Ratings.propTypes = {
-  value: PropTypes.number.isRequired,
-  text: PropTypes.number.isRequired,
 };
 
 export default Ratings;

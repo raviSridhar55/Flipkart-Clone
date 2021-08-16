@@ -4,7 +4,8 @@
   "description": "Flipkart Clone (MERN)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +17,13 @@
   "devDependencies": {
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanish74/Flipkart-Clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tanish74/Flipkart-Clone/issues"
+  },
+  "homepage": "https://github.com/Tanish74/Flipkart-Clone#readme"
 }
